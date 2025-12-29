@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  margin-bottom: 18px;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.question.correct {
+  background: #e6fffa;
+}
+
+.question.wrong {
+  background: #ffe6e6;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #0056b3;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
